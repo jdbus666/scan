@@ -1,3 +1,12 @@
+/*
+缓存IsvToken
+
+0 30 * * * * jd_cacheIsvToken.js
+
+- ### 改75和88行
+  
+*/
+
 import asyncio
 import json
 import os
