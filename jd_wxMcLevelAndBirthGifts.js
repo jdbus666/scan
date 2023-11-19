@@ -2,7 +2,9 @@
 活动名称：生日礼包/会员等级礼包 · 超级会员
 活动链接：https://cjhy-isv.isvjcloud.com/mc/wxMcLevelAndBirthGifts/activity?activityId=<活动id>
 环境变量：jd_wxMcLevelAndBirthGifts_activityId // 活动id
-		 jd_wxMcLevelAndBirthGifts_openCard // 是否开卡，默认开卡
+		jd_wxMcLevelAndBirthGifts_openCard // 是否开卡，默认开卡
+
+7 7 7 7 * 
 
 */
 

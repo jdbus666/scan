@@ -4,6 +4,8 @@
 环境变量：jd_jinggeng_showInviteJoin_activityUrl // 活动链接
         jd_jinggeng_showInviteJoin_address // 用户登记收货地址，按照顺序依次填写 收件人@手机号@省份@城市@区县@详细地址，多个用管道符分开
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('邀请入会赢好礼（京耕）')

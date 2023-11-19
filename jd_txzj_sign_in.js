@@ -3,6 +3,8 @@
 活动链接：https://txzj-isv.isvjcloud.com/sign_in/home?a=<活动id>
 环境变量：jd_sign_in_activityUrl // 活动链接
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('签到有礼（收藏大师）')

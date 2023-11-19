@@ -3,6 +3,8 @@
 活动链接：https://txzj-isv.isvjcloud.com/cart_item/home?a=<活动id>
 环境变量：jd_cart_item_activityUrl // 活动链接
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('加购有礼（收藏大师）')

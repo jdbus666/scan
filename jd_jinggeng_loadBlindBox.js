@@ -3,6 +3,8 @@
 活动链接：https://jinggeng-isv.isvjcloud.com/ql/front/loadBlindBox?id=<活动id>&user_id=<店铺id>
 环境变量：jd_jinggeng_loadBlindBox_activityUrl // 活动链接
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('惊喜开盲盒（京耕）')

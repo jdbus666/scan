@@ -5,6 +5,8 @@
 		 jd_lzkj_loreal_address // 用户登记收货地址，按照顺序依次填写 收件人@手机号@省份@城市@区县@详细地址，多个用管道符分开
          jd_lzkj_loreal_invite_myhelpnum // 自定义邀请人数
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('邀请入会有礼（超级无线）')

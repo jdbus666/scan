@@ -3,6 +3,8 @@
 活动链接：https://txzj-isv.isvjcloud.com/share_new/home?a=<活动id>
 环境变量：jd_share_new_activityUrl // 活动链接
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('分享有礼（收藏大师）')

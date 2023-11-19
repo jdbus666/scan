@@ -3,6 +3,8 @@
 活动链接：https://cjhy-isv.isvjcloud.com/mc/wxPointShopView/pointExgHb?venderId=<店铺id>&giftId=<活动id>
 环境变量：jd_pointExgHb_activityUrl // 活动链接
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('积分兑换红包（超级会员）')

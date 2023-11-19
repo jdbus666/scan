@@ -3,6 +3,8 @@
 活动链接：https://jinggeng-isv.isvjcloud.com/ql/front/showDrawOne?id=<活动id>&user_id=<店铺id>
 环境变量：jd_jinggeng_showDrawOne_activityUrl // 活动链接
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('大转盘抽奖（京耕）')

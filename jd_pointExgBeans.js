@@ -4,6 +4,8 @@
 环境变量：jd_pointExgBeans_activityUrl // 活动链接
         jd_pointExgBeans_notify // 是否推送通知，默认不推送
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('积分兑换京豆（超级会员）')

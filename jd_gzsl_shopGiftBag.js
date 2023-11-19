@@ -3,6 +3,8 @@
 活动链接：https://gzsl-isv.isvjcloud.com/wuxian/mobileForApp/dist/views/pages/shopGiftBag.html?activityType=<活动类型>&activityId=<活动id>
 环境变量：jd_gzsl_shopGiftBag_activityUrl // 活动链接
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('店铺礼包（无线营销）')

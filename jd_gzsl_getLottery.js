@@ -3,6 +3,8 @@
 活动链接：https://gzsl-isv.isvjcloud.com/wuxian/user/getLottery/<活动id>
 环境变量：jd_gzsl_getLottery_activityUrl // 活动链接
 
+7 7 7 7 * 
+
 */
 
 const $ = new Env('幸运大转盘（无线营销）')
