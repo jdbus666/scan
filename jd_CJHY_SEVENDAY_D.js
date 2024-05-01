@@ -1,18 +1,13 @@
 /*
 活动名称：CJHY_SEVENDAY_D
 环境变量：多活动id用逗号分开，不同环境变量对应不同链接类型，注意区分
-
-
 下方例子：	单个无需 ,  多活动id用逗号分开
 export CJHY_SEVENDAY_D="xxxx,xxxx,xxxxx"
 export jd_sevenDay_blacklist="" 黑名单 用&隔开 pin值
-
 默认入会，开启请设置变量 WXSIGNRH=false;
 cron: 1 1 1 1 * CJHY_SEVENDAY_D.js
-
 */
-
-const $ = new Env('CJHY_SEVENDAY_D');
+const $ = new Env('cj7日豆');
 const _0x36ee51 = $.isNode() ? require("./jdCookie.js") : "",
   _0x5b67d7 = $.isNode() ? require("./sendNotify") : "",
   _0x15c39a = require("./USER_AGENTS"),
