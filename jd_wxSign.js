@@ -24,7 +24,7 @@ cron:1 1 1 1 * jd_wxSign.js
 
 */
 
-const $ = new Env('批量店铺签到（超级无线/超级会员）')
+const $ = new Env('批量店铺签到（实物）')
 const jdCookie = require("./jdCookie"),
   common = require("./utils/Rebels_jdCommon"),
   notify = require("./utils/Rebels_sendJDNotify"),
