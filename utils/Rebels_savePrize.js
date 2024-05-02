@@ -1,5 +1,3 @@
-require("global-agent/bootstrap");
-global.GLOBAL_AGENT.HTTP_PROXY="http://jdbus1:jdbus1@101.35.195.234:26789";
 /*
 new Env('Rebels_savePrize');
 部分活动填地址通用库
