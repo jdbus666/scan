@@ -4,10 +4,7 @@
         https://lzkj-isv.isvjd.com/sign/sevenDay/signActivity?activityId=<活动id>
         https://cjhy-isv.isvjcloud.com/sign/signActivity?activityId=<活动id>
         https://cjhy-isv.isvjcloud.com/sign/sevenDay/signActivity?activityId=<活动id>
-环境变量：jd_wxSign_sign_lzkj_Ids // 超级无线签到有礼活动id，多个用英文逗号分割
-        jd_wxSign_sevenDay_lzkj_Ids // 超级无线7日签到活动id，多个用英文逗号分割
-        jd_wxSign_sign_cjhy_Ids // 超级会员签到有礼活动id，多个用英文逗号分割
-        jd_wxSign_sevenDay_cjhy_Ids // 超级会员7日签到活动id，多个用英文逗号分割
+环境变量：jd_wxSign_sevenDay_lzkj_Ids // 超级无线7日签到活动id，多个用英文逗号分割
         jd_wxSign_lzkjInterval // 自定义超级无线活动签到间隔时长（整数，单位毫秒），默认500ms
         jd_wxSign_cjhyInterval // 自定义超级会员活动签到间隔时长（整数，单位毫秒），默认1000ms
         jd_wxSign_lzkjFilter // 账号pin过滤（跳过不跑），多个用户名用@分割
@@ -24,7 +21,7 @@ cron:1 1 1 1 * jd_wxSign.js
 
 */
 
-const $ = new Env('批量店铺签到（实物）')
+const $ = new Env('lz7日（实物）')
 const jdCookie = require("./jdCookie"),
   common = require("./utils/Rebels_jdCommon"),
   notify = require("./utils/Rebels_sendJDNotify"),
@@ -54,9 +51,9 @@ const lzkj_signInterval = process.env.jd_wxSign_lzkjInterval || "500",
   cjhy_signInterval = process.env.jd_wxSign_cjhyInterval || "1000",
   isNotify = (process.env.jd_wxSign_notify || process.env.jd_wxSign_Notify) === "true";
 let activityIdList1 = (process.env.jd_wxSign_sevenDay_lzkj_Ids || process.env.jd_wxSign_sevenDay_lzkj_Ids || "").split(","),
-  activityIdList2 = (process.env.jd_wxSign_sign_lzkj_Ids || process.env.jd_wxSign_sign_lzkj_Ids || "").split(","),
-  activityIdList3 = (process.env.jd_wxSign_sevenDay_cjhy_Ids || process.env.jd_wxSign_sevenDay_cjhy_Ids || "").split(","),
-  activityIdList4 = (process.env.jd_wxSign_sign_cjhy_Ids || process.env.jd_wxSign_sign_cjhy_Ids || "").split(","),
+  activityIdList2 = (process.env.jd_wxSign_sign_lzkj_Ids213 || process.env.jd_wxSign_sign_lzkj_Ids213 || "").split(","),
+  activityIdList3 = (process.env.jd_wxSign_sevenDay_cjhy_Ids213 || process.env.jd_wxSign_sevenDay_cjhy_Ids213 || "").split(","),
+  activityIdList4 = (process.env.jd_wxSign_sign_cjhy_Ids213 || process.env.jd_wxSign_sign_cjhy_Ids213 || "").split(","),
   lzkjFilter = (process.env.jd_wxSign_lzkjFilter || "").split("@"),
   cjhyFilter = (process.env.jd_wxSign_cjhyFilter || "").split("@");
 const forbiddenQuit = !(process.env.jd_wxSign_forbiddenQuit === "false");
