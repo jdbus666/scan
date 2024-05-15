@@ -220,7 +220,7 @@ async function Main() {
     }
     console.log("当前助力:[" + ($.inviteNick || "未获取到数据") + "]");
     if ($.index == 1) {
-    $.inviteNick = $.MixNick || authorCode;
+    $.inviteNick = $.authorCode || authorCode;
     console.log("后面都助力:[" + $.inviteNick + "]");
   }    await $.wait(parseInt(waitTimes * 1 + 100, 10));
   } catch (l1llII) {
