@@ -188,7 +188,7 @@ async function run() {
       for (m = 1; l1iIil--; m++) {
         await takePostRequest("startDraw");
         if (Number(l1iIil) <= 0) break;
-        if (m >= 10) {
+        if (m >= 1000) {
           console.log("抽奖太多次，多余的次数请再执行脚本");
           break;
         }
