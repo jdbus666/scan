@@ -21,7 +21,7 @@ console.log("jd_opencard_notify // 是否推送通知，默认不推送");
 console.log("==========" + $.name + "提示结束==========");
 console.log("");
 const isNotify = process.env.jd_opencard_notify === "true",
-  opencard_draw = process.env.jd_opencard_draw || 3;
+  opencard_draw = process.env.jd_opencard_draw || 300;
 let domains = "https://szxyun-rc.isvjcloud.com",
   cookie = "";
 const cookiesArr = Object.keys(jdCookie).map(i1IIl => jdCookie[i1IIl]).filter(I1lll1 => I1lll1);
