@@ -13,7 +13,7 @@ cron "1 1 1 1 *" script-path=jd_opencard_0507.js
 const $ = new Env('5.7-5.18 会员专享 宠粉福利')
 const jdCookie = require("./jdCookie"),
   notify = require("./utils/Rebels_sendJDNotify"),
-  opencard_draw = process.env.jd_opencard_draw || 3,
+  opencard_draw = process.env.jd_opencard_draw || 300,
   hotbreak = process.env.jd_opencard_break === "true",
   isNotify = process.env.jd_opencard_notify === "true";
 console.log("");
