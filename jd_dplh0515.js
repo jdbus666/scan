@@ -219,12 +219,10 @@ async function Main() {
       }
     }
     console.log("当前助力:[" + ($.inviteNick || "未获取到数据") + "]");
-    if ($.index == 1) {
-    $.inviteNick = $.authorCode || authorCode;
-    console.log("后面都助力:[" + $.inviteNick + "]");
-  }    await $.wait(parseInt(waitTimes * 1 + 100, 10));
-  } catch (l1llII) {
-    console.log("❌ 脚本运行遇到了错误\n" + l1llII);
+    $.index == 1 && ($.inviteNick = $.authorCode, console.log("后面都助力:[" + $.inviteNick + "]"));
+    await $.wait(parseInt(waitTimes * 1 + 100, 10));
+  } catch (i1I1i) {
+    console.log("❌ 脚本运行遇到了错误\n" + i1I1i);
   }
 }
 async function handleResponse(IilIll, lI11Ii) {
