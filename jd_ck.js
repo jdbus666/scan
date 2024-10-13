@@ -3,7 +3,7 @@
 export RedCount="5"
 每个账号之间延时单位毫秒
 export RedTimes="5000"
-0 12 14 10 * jd_618redp.js
+0 12 14 10 * jd_ck.js
 */
 const $ = new Env('红包');
 const _0x23b352 = $.isNode() ? require("./jdCookie.js") : "";
