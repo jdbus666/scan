@@ -5,7 +5,7 @@ export RedCount="5"
 export RedTimes="5000"
 0 12 14 10 * jd_618redp.js
 */
-const $ = new Env('双11红包');
+const $ = new Env('红包');
 const _0x23b352 = $.isNode() ? require("./jdCookie.js") : "";
 let _0x35b099 = "",
   _0xb1627d = 3000,
